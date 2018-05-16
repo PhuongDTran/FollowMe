@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:UIPrototype"
+             x:Class="UIPrototype.MainPage">
+    <Grid x:Name="mainGrid" Margin="0,5,0,0" BackgroundColor="White" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="400"/>
+        </Grid.RowDefinitions>
+        <Label Text="Welcome to Xamarin.Forms!" 
+               Grid.Column="0" Grid.Row="0" 
+               TextColor="Black" 
+               VerticalOptions="Center" 
+               HorizontalOptions="Center" />
+    </Grid>
+	
+
+</ContentPage>
