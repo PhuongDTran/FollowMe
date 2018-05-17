@@ -20,7 +20,7 @@ namespace UIPrototype.UWP
         public MainPage()
         {
             this.InitializeComponent();
-
+            Xamarin.FormsMaps.Init("Av5EDT5X4T4UY2NEq9DbWpPWFh0uXywgtzItny6Vd80nilrGOrEkyuzJDkBm04Eh");
             LoadApplication(new UIPrototype.App());
         }
     }
